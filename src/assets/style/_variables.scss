@@ -1,0 +1,94 @@
+$screenWidth: 90%;
+$bg: #F7F5F4;
+$borderColor: #dcdee2;
+$searchBodyWidth: 80%;
+
+$footHeight: 80px;
+
+$topMenu: 15px; //内容离导航的距离
+
+
+$primaryColor: #2d8cf0;
+$lightPrimaryColor: #5cadff;
+$DarkPrimayColor: #2b85e4;
+
+$info: #2db7f5;
+$success: #19be6b;
+$warming: #ff9900;
+$error: #ed4014;
+
+//字体文本
+//文本、背景、边框、阴影
+$Title: #17233d;  //标题
+$Content: #515a6e; //文本
+$SubColor: #808695;
+$Disable: #c5c8ce;
+$Border: #dcdee2;
+$Divider: #e8eaec;
+$BgColor: #f8f8f9;
+
+.global_width{
+  width: $screenWidth;
+  margin: 0 auto;
+}
+.clearfix:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+//标题
+.global-title{
+  color: $Title;
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 10px;
+  //border-bottom: 1px solid $borderColor;
+}
+.global_b_bar{
+  content: "";
+  width: 8px;
+  height: 18px;
+  background: $DarkPrimayColor;
+  display: inline-block;
+  margin-top: 3px;
+  vertical-align: top;
+  margin-right: 6px;
+}
+
+.main_font_size{
+  font-size: 16px;
+}
+
+.searchBody_Style{
+  width: $searchBodyWidth;
+  position: absolute;
+  top: 240px;
+  left: 50%;
+  margin-left: -40%;
+  background: #fff;
+  border-radius: 8px;
+  padding: 0 10px 30px 10px;
+  z-index: 101;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+}
+
+
+.demo-spin-icon-load{
+  animation: ani-demo-spin 1s linear infinite;
+}
+@keyframes ani-demo-spin {
+  from { transform: rotate(0deg);}
+  50%  { transform: rotate(180deg);}
+  to   { transform: rotate(360deg);}
+}
+.demo-spin-col{
+  height: 100px;
+  position: relative;
+}
+
+@keyframes demo-loading {
+  from { transform: rotate(0deg);}
+  50%  { transform: rotate(180deg);}
+  to   { transform: rotate(360deg);}
+}

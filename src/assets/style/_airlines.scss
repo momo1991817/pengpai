@@ -1,0 +1,67 @@
+
+//搜索结果部分
+.title {
+  background: #FBFBFB;
+  padding: 5px 15px;
+}
+
+.airline>b,.airlineTime>b,.seat>b{
+  display: block;
+  font-size: 18px;
+  height: 30px;
+  line-height: 30px;
+}
+.airline>span,.airlineTime>span,.seat>span {
+  display: block;
+  font-size: 14px;
+}
+.airline>span{  color: #808695;}
+.airlineTime>span {color: #515a6e;}
+.searchContent .list {
+  margin: 10px 0;
+  background: #fff;
+  padding: 15px 10px;
+}
+.airlineTime>b {
+  font-size: 20px;
+}
+.seat b{
+  font-size: 15px;
+  font-weight: normal;
+  color: #808695;
+}
+.seat span{
+  color: red;
+  height: 21px;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow:ellipsis;
+}
+.time {
+  color: #FF6600;
+  font-weight: bold;
+  font-size: 14px;
+  height: 25px;
+  line-height: 35px;
+  text-align: center;
+}
+.searchContent .list img{
+  width: 100%;
+}
+//订单类型
+.order-type,.order-status{
+  height: 50px;
+  line-height: 50px;
+}
+.order-type{
+  color: #2b85e4;
+  font-weight: bold;
+  height: 50px;
+}
+.order-time{
+  color:  #808695;
+}
+.airline-btn>button{
+  margin-right: 6px;
+}
+
